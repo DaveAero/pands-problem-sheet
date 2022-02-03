@@ -12,3 +12,5 @@
 # 3. https://stackoverflow.com/questions/28883769/remove-odd-indexed-elements-from-list-in-python#:~:text=Fun%20fact%3A%20to%20remove%20all,remove(x)%20.
 
 # 4. https://stackoverflow.com/questions/509211/understanding-slice-notation
+
+# 5. https://stackoverflow.com/questions/12453580/how-to-concatenate-items-in-a-list-to-a-single-string
