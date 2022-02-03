@@ -6,7 +6,7 @@
 print("Body Mass Index Calculator")
 
 # Prompt the user to enter their height and weight.
-# The result is saved to a 1x2 list called user.            ***Reference 1
+# The result is saved to a 1x2 list called user.                                                                            ***Reference 1
 user = [int(input("Please input your height (cm):")), int(input("and your weight (kg):"))]
 
 # Body Mass Index is a simple calculation using a person’s height and weight.
