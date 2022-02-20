@@ -27,5 +27,5 @@ while number != 1:
         number = int((number * 3 ) + 1)
         numbers.append(number)
 
-# if the number is equal to 1, the series can be printed
+# if the number is equal to 1, the series can be printed.
 print("The collatz series for the number {} is:\n{}".format(initialNumber, numbers))
