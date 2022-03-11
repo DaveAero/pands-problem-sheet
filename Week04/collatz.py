@@ -2,13 +2,25 @@
 # This program is used to show a numbers series in the collatz conjecture
 # author: David Burke
 
-# creating a blank list for the series to be saved into
-numbers= []
+### Functions ###
+# Function used to ensure the user has input the correct data and data type
+# Function copied from bmi.py
+def inputChecker(message):
+    userInput = False
+    while(userInput == False):
+        try:
+            userInput = int(input("{}".format(message)))
+        except ValueError:
+            print("Please try again. ", end="")
+    return userInput
 
+# creating a blank list for the series to be saved into
 # prompt the user to input a number
-number = int(input("Please enter a positibe whole number:"))
 # saving inital number for the final printout
+numbers= []
+number = inputChecker("Enter a positive whole number:")
 initialNumber = number
+
 # add the starting number to the numbers list
 numbers.append(number)
 

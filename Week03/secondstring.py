@@ -2,25 +2,16 @@
 # This program reads in a string, returns every second character and inverts the order.
 # author: David Burke
 
-##### Assumptions #####
-# The counting of every second charracter occurs before the inversion of the string
-# The charracters to be removed are the even index numbered charracters starting from the left
+# prompt user to input their text to be converted
+inString = str(input("Input text here:"))
 
-# prompt user to input a sting
-full_string = input("Please input text here:")
+# convert string to a list()                                                                                                ***Ref 2
+# in_string[start:stop:step]                                                                                                ***Ref 3 & 4
+    ## start ## is not defined so the function will start at either end of the list
+    ## stop ## is not defined so the function will always use the full list
+    ## step ## in steps of -2 so the list is read in the reverse direction and only evey second piece of data is being read
+outString = list(inString[::-2])
 
-# convert string to a list                                                                                                  ***Reference 2
-string = list(full_string)
-
-# remove every second charracter using splice
-# [start:stop:step] starts at index 1 (2nd charracter), the stop is not defined (as to be infinite), in steps of 2          ***Reference 3
-string_2nds = string[1::2]
-
-# all items in the array reversed, by stepping through the array in the negative direction.                                 ***Reference 4
-string_2nds_rev = string_2nds[::-1]
-
-# combining the list back into a string                                                                                     ***Reference 5
-output_string = "".join(string_2nds_rev)
-
-# print output
-print(output_string)
+# print the final string to the user
+# list can be combined back into a string using the .join() function
+print("".join(outString))

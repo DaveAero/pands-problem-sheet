@@ -17,11 +17,10 @@ weekday = datetime.today().weekday()
 #            5 : "Saturday",
 #            6 : "Sunday"}
 
-# Use the number index of weekdays to check if today is a weekday
+# Use the number index of weekday() to check if today is a weekday
 if weekday <= 4:
     print("Yes, unfortunately today is a weekday.")
 
 # if not, it must be a weekend
 else:
     print("It is the weekend, yay!")
-
