@@ -14,3 +14,5 @@
 # 4. https://stackoverflow.com/questions/509211/understanding-slice-notation
 
 # 5. https://stackoverflow.com/questions/12453580/how-to-concatenate-items-in-a-list-to-a-single-string
+
+# 6. https://www.youtube.com/watch?v=2YeJ-5UAke8
