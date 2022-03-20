@@ -16,3 +16,5 @@
 # 5. https://stackoverflow.com/questions/12453580/how-to-concatenate-items-in-a-list-to-a-single-string
 
 # 6. https://www.youtube.com/watch?v=2YeJ-5UAke8
+
+# 7. https://opensource.com/article/17/3/python-tricks-artists-interactivity-Python scripts#:~:text=To%20take%20input%20(or%20arguments,that%20you%20launch%20the%20script.
