@@ -42,10 +42,10 @@ def sqrt(x):
 num = inputChecker("Enter a positive number:")
 
 # setting the inital guess equal to the number entered, as a starting point.
-x = num
+xZero = 1
 
 # Run the above function to find an approximate square root
-rootNum = sqrt(x)
+rootNum = sqrt(xZero)
 
 # Print the result once the while loop is satisfied
 print("The square root of {} is approx. {}".format(num,rootNum))
