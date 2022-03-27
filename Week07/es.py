@@ -9,7 +9,7 @@ import sys
 # the file path is to be entered as the the second string, following the python script              ### Ref 7
 filename= str(sys.argv[1])
 
-def readEs():
+def readData():
     try:
         with open(filename) as f:
             data = str(f.read())
@@ -18,15 +18,11 @@ def readEs():
         print("No file found")
 
 # Main Code
-data = readEs()
+data = readData()
 
 # counting of the e's
 # Assumption, both lower case and capital E's are required
-es = int(data.count("e"))
-capitalEs = int(data.count("E"))
-
-# consolidating the total
-total = es + capitalEs
+es = int(data.count("e")) + int(data.count("E"))
 
 #printing the final result
-print(total)
+print(es)
