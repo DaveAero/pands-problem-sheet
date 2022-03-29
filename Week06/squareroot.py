@@ -40,7 +40,7 @@ def sqrt(x):
         xTangent = x - (y/slope)
         x = xTangent
     return x
-9
+
 ##### Main Code #####
 # Prompt the user to enter a number using the inputChecker function.
 num = inputChecker("Enter a positive number:")
