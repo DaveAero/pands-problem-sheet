@@ -6,6 +6,7 @@
 
 ### inputChecker ###
 # Function used to ensure the user has input the correct data and data type
+# copied from bmi.py
 def inputChecker(message):
     userInput = False
     while(userInput == False):
@@ -17,7 +18,7 @@ def inputChecker(message):
 
 ### sqrt ###
 # sqrt(num) = x  Or  x**2 = num
-# Useing a quadratic equation to find the roots of num. ax**2 + bx + c = y
+# Useing a quadratic equation to find the roots of num. ax**2 + bx + c = y              ****Ref 08
 # We want to find the x axis intersection, therfore y=0.
 
 # Get slope of tangent line at the guessed point x, using differentiation. dy/dx = 2x Or slope = 2x
@@ -29,7 +30,7 @@ def sqrt(x):
 
     # Setting limits to the accuracy of the approximation
     # the guess of the root is squared and compared to the entered num
-    # accuracy is set to + or - 1x10^9 of the entered number. This can be easily increased if needed.
+    # accuracy is set to + or - 1000th of the entered number.
     upper = num + num/1000
     lower = num - num/1000
 

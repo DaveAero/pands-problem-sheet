@@ -19,7 +19,7 @@ def inputChecker(message):
 height = inputChecker("Enter height (cm):")
 weight = inputChecker("Enter weight (kg):")
 
-# Body Mass Index is a simple calculation using a person’s height and weight.
+# Body Mass Index is a simple calculation using a person’s height and weight.       **** Ref 01
 # The formula is BMI = kg/m^2 where kg is a person’s weight in kilograms and m2 is their height in metres squared.
 BMI = (weight)/((height/100)**2)
 

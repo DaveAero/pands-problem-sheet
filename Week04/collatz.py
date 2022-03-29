@@ -24,7 +24,7 @@ initialNumber = number
 # add the starting number to the numbers list
 numbers.append(number)
 
-# The series ends when numbers reaches 1, therefore a while loop is used
+# The series ends when numbers reaches 1, therefore a while loop is used            *** Ref 6
 while number != 1:
 
     # check if the number is even, divisable by 2

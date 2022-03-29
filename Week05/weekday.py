@@ -5,7 +5,7 @@
 # importing datetime as a usefull function
 from datetime import datetime
 
-#creatinge a variable for the current day of the week using datetime
+#creatinge a variable for the current day of the week using datetime        *** Ref 7
 weekday = datetime.today().weekday()
 
 ## Weekdays as outputted by daytime.today().weekday()

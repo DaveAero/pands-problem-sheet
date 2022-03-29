@@ -33,7 +33,7 @@ plt.title("X to increasing powers", size = 20, color = 'dimgrey')
 plt.xticks([0,1,2,3,4])
 plt.yticks(range(0,yMax+4,4))
 
-# adding labes to each axis
+# adding labes to each axis                     *** Ref 10 
 plt.xlabel("X-axis", size = 15, color = 'slategray')
 plt.ylabel("Y-axis", size = 15, color = 'slategray')
 
